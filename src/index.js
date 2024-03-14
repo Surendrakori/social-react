@@ -6,9 +6,9 @@ import { UserContextProvider } from './UserContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <UserContext.Provider>
+    <UserContextProvider>
     <App />
-    </UserContext.Provider>
+    </UserContextProvider>
 );
 
 
