@@ -3,12 +3,12 @@ import { UserContext } from './App'
 import './Register.css'
 
 const Register = () => {
-    const {user, setUser, logged, setLogged, users, setUsers}=useContext(UserContext);
+    const {user, setUser, check, setChecked, users, setUsers}=useContext(UserContext);
     const handleRegister = () => {
       setUsers((prev) => [...prev, user])
       console.log(users);
       // setUser('')
-      setLogged(!logged)
+      setLogged(!check)
       // setUser('')
   }
 

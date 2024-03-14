@@ -5,11 +5,11 @@ import { UserContext } from "./UserContext";
 // export const UserContext = createContext();
 
 export default function App() {
-  const {logged} = useContext(UserContext)
+  const {check} = useContext(UserContext)
  
   return (
     <>
-    {! logged ? <Login />: <Home />}
+    {! check ? <Login />: <Home />}
     </>
   );
 }

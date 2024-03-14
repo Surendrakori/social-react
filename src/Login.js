@@ -4,19 +4,19 @@ import Register from './Register.js';
 
 
 export default function Login() {
-    const {user ,setUser , logged, setLogged ,users ,setUsers}=useContext(UserContext);
+    const {user ,setUser , check, setchecked ,users ,setUsers}=useContext(UserContext);
     const [register ,setRegister] =useState(false)
 
     const handleLogin =()=>{
       const verifyUser =users.find((ele)=>(ele.email===user.email && ele.password===user.password))
       if(verifyUser){
-        setLogged(!logged)
+        setLogged(!check)
       }
     }
   const handleCreateAccount = () =>{
     setRegister (!register)
   }
-    
+
   return (
     <>
     <input type='email' placeholder='Email' onChange={(e) =>
