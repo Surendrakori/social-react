@@ -10,9 +10,9 @@ export const UserContext = createContext();
   const val ={user , setUser, users, setUsers,logged,setLogged}
   
   return (
-  <UserContextProvider value={val}>
+  <UserContext.Provider value={val}>
     {props.children}
-    </UserContextProvider>
+    </UserContext.Provider>
   )
 }
 
