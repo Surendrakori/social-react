@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import Login from "./Login";
 import Home from "./Home";
-import { UserContext } from "./userContext";
+import { UserContext } from "./UserContext";
 // export const UserContext = createContext();
 
 export default function App() {
