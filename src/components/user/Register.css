@@ -53,13 +53,13 @@
   
   .Register-input:focus {
     outline: none;
-    border-color: #007bff;
+    border-color: rgb(240, 142, 158);;
   }
   
   .Register-button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: rgb(240, 142, 158);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -67,6 +67,6 @@
   }
   
   .Register-button:hover {
-    background-color: #0056b3;
+    background-color: rgb(243, 52, 84);
   }
   

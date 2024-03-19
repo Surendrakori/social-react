@@ -1,6 +1,6 @@
 
 .body {
-    background-image: url(/public/images/social-reactbg.jpg);
+    background-image: url(/public/images/insta.jpg);
     background-size: cover;
     height: 100vh;
     margin: 0;
@@ -30,7 +30,7 @@
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    background-color: #65a9f1;
+    background-color: rgb(240, 142, 158);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -39,5 +39,5 @@
 }
 
 .login-button:hover {
-    background-color: #073c75;
+    background-color: rgb(243, 52, 84);
 }

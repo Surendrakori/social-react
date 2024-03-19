@@ -8,6 +8,7 @@ function Home() {
     const {flag , setFlag, name} =useContext(UserContext);
   return (
     <div className='top-nav-container'>
+      <div className='lo'><img src='/SOCIAL-REACT/public/Instagram-logo.jpg'></img></div>
         <div className='nav-links'>
             <Link to="/feeds">Feeds</Link>
             <Link to="/albums">Albums</Link>
